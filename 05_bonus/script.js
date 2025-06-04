@@ -9,7 +9,7 @@ const userName = "Mario";
 
 // Dichiara la funzione qui.
 
-function greetUser(name) {
+const greetUser = (name) => {
   const now = new Date().getHours();
 
   let msg;
@@ -22,7 +22,7 @@ function greetUser(name) {
   }
 
   return `${msg} ${name}!`;
-}
+};
 
 // Invoca la funzione qui e stampa il risultato in console
 
